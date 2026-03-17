@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamad Zahir</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: rgba(255,255,255,0.08);
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Cairo', sans-serif;
+      background: radial-gradient(1200px 600px at 50% -10%, #1e293b, var(--bg));
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 24px;
+    }
+    .card {
+      background: var(--card);
+      backdrop-filter: blur(12px);
+      border-radius: 24px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+    }
+    .dhikr {
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 2.2;
+      margin-bottom: 28px;
+    }
+    .links {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .links a {
+      text-decoration: none;
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      font-weight: 600;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .links a:hover {
+      transform: translateY(-2px);
+      background: rgba(56,189,248,0.18);
+    }
+    footer {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .heart {
+      color: #f87171;
+      margin: 0 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="dhikr">
+        سُبْحَانَ اللَّهِ وَبِحَمْدِهِ<br />
+        سُبْحَانَ اللَّهِ الْعَظِيمِ
+      </div>
+
+      <div class="links">
+        <a href="https://x.com/2mzya" target="_blank">X / Twitter</a>
+        <a href="https://www.instagram.com/2mzya" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/2mzya" target="_blank">Facebook</a>
+      </div>
+
+      <footer>
+        Made by <a href="https://x.com/2mzya" target="_blank">Mohamad Zahir</a>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
